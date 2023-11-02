@@ -1,0 +1,19 @@
+name: ${name}
+description: ${description}
+author: ${author}
+main: ${mainClass}
+version: ${version}
+url: ${url}
+commands:
+  craft:
+    description: "Abre tu mesa de crafteo portátil."
+    usage: "/craft"
+    aliases: ["crafting"]
+  sync:
+    description: "Sincroniza tu progresión con otro jugador."
+    usage: "/sync <jugador>"
+    aliases: ["synchronize"]
+  accept-sync:
+    description: "Acepta la última petición de sincronización que te hayan enviado."
+    usage: "/accept-sync"
+    aliases: ["accept-synchronize", "acceptsync"]
